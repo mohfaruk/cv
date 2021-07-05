@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+}
+
+.top-container{
+    background: #FF94CC;
+    position: relative;
+    padding: 130px;
+    height: 100%;
+    width: 100%;
+}
+
+.middle-container {
+    background-color: #FFF5DA;
+    padding: 150px;
+    text-align: center;
+    font-family: 'Otomanopee One', sans-serif;
+    height: 100%;
+    width: 100%;
+}
+
+.bottom-container {
+    background: #FF94CC;
+    padding: 130px;
+    height: 100%;
+    width: 100%;
+}
+
+.btn {
+    background: #ff0000;
+    background-image: -webkit-linear-gradient(top, #ff0000, #f0f0f0);
+    background-image: -moz-linear-gradient(top, #ff0000, #f0f0f0);
+    background-image: -ms-linear-gradient(top, #ff0000, #f0f0f0);
+    background-image: -o-linear-gradient(top, #ff0000, #f0f0f0);
+    background-image: linear-gradient(to bottom, #ff0000, #f0f0f0);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    -webkit-box-shadow: 0px 1px 3px #ffffff;
+    -moz-box-shadow: 0px 1px 3px #ffffff;
+    box-shadow: 0px 1px 3px #ffffff;
+    font-family: 'Otomanopee One', sans-serif;
+    color: #ffffff;
+    font-size: 35px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+
+  .btn:hover {
+    background: #db93c8;
+    background-image: -webkit-linear-gradient(top, #db93c8, #ffffff);
+    background-image: -moz-linear-gradient(top, #db93c8, #ffffff);
+    background-image: -ms-linear-gradient(top, #db93c8, #ffffff);
+    background-image: -o-linear-gradient(top, #db93c8, #ffffff);
+    background-image: linear-gradient(to bottom, #db93c8, #ffffff);
+    text-decoration: none;
+  }
+
+  .copyright {
+    font-family: 'Otomanopee One', sans-serif;
+  }
